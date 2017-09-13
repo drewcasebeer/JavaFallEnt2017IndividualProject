@@ -2,5 +2,5 @@
 
 | Date | Task | Hours | Notes|
 |------|------|-------|------|
-| 9/1/17 | Create Readme Documents | 1 |  |
+| 9/6/17 | Create Readme Documents | 1 |  |
 |  |  |  |  |
