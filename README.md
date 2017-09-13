@@ -1,6 +1,6 @@
 # Drew Casebeer Individual Project
 
-##Problem Statement
+### Problem Statement
 While hosting a movie streaming service is fun you are often left with the
 daunting question of what your users actually want to watch. The goal of 
 this project will be to create a web application where people can vote and 
