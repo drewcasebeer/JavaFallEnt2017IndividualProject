@@ -7,3 +7,4 @@ this project will be to create a web application where people can vote and
 suggest new movies that they would like to see included in the service.
 
 [Project Plan](Project%20Plan.md)
+[Time Log](Time%20Log.md)
