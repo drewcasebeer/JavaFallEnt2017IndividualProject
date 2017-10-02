@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaFallEnt2017IndividualProject:war exploded">
+    <output-path>$PROJECT_DIR$/target/JavaFallEnt2017IndividualProject</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaFallEnt2017IndividualProject" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/JavaFallEnt2017IndividualProject/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="JavaFallEnt2017IndividualProject/web/Web" />
+    </root>
+  </artifact>
+</component>
