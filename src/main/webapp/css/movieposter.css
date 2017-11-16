@@ -1,0 +1,47 @@
+.movie-wrapper {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 1em;
+    position: relative
+}
+
+.movie-poster {
+    width: 200px;
+    height: 300px;
+}
+
+.movie-controls-top {
+    display: none;
+    position: absolute;
+    top:0px;
+    background-color: rgba(255, 255, 255, .6);
+    padding: 3px;
+    width: 100%;
+}
+
+.movie-controls-bottom {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(255, 255, 255, .6);
+    padding: 3px;
+    width: 100%;
+    text-align: right;
+}
+
+.movie-score {
+    float: left;
+}
+
+.movie-controls-bottom i {
+    margin-right: 5%;
+}
+
+.movie-controls-bottom i:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.movie-wrapper:hover .movie-controls-top, .movie-wrapper:hover .movie-controls-bottom {
+    display: block;
+}

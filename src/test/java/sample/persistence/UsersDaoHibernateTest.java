@@ -71,8 +71,6 @@ public class UsersDaoHibernateTest {
         // see https://docs.oracle.com/javase/tutorial/i18n/format/dateFormat.html
         UsersEntity user = new UsersEntity("Pete", "Wentzer", "test", "test");
         int idNewUser = dao.insert(user);
-        System.out.println(idNewUser);
-        System.out.println(dao.getUser(idNewUser));
         assertEquals("Incorrect size of results", listOfUsersInitialSize + 1, dao.getAllUsers().size());
         assertEquals("User not saved correctly", user.toString(), dao.getUser(idNewUser).toString());
     }

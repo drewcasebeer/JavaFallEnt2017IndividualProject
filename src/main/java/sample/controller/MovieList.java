@@ -10,7 +10,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-@WebServlet("/movielisttest")
+@WebServlet("/movielist")
 public class MovieList extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -21,10 +21,10 @@ public class MovieList extends HttpServlet {
         MovieDb movie = movies.getMovie(5353, "en");
 
         MovieResultsPage popularMovies = movies.getPopularMovies("en", 1);
-        for(MovieDb mdb : popularMovies.getResults()) {
-            out.println(mdb.getTitle());
-        }
 
+        request.setAttribute("searchedMovies", popularMovies.getResults());
 
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/moviesector/moviegrid.jsp");
+        dispatcher.forward(request, response);
     }
 }
